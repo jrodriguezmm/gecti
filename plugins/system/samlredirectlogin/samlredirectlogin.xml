@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>PLG_SYSTEM_SAMLREDIRECTLOGIN</name>
+    <author>Joh Fredy Velasco Bareño</author>
+    <creationDate>Sep 04, 2017</creationDate>
+    <copyright>@copyright Copyright © 2016 Universidad de los andes, All Rights Reserved.</copyright>
+    <authorEmail>jf.velasco20@uniandes.edu.co</authorEmail>
+    <authorUrl>www.uniandes.edu.co</authorUrl>
+    <version>1.0</version>
+    <description>PLG_SYS_SAMLREDIRECTLOGIN_DESC</description>
+	<files>
+		<filename plugin="samlredirectlogin">samlredirectlogin.php</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_samlredirectlogin.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_samlredirectlogin.sys.ini</language>
+        <language tag="es-CO">language/es-CO/es-CO.plg_system_samlredirectlogin.ini</language>
+        <language tag="es-CO">language/es-CO/es-CO.plg_system_samlredirectlogin.sys.ini</language>		
+    </languages>
+</extension>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="user" method="upgrade">
+	<name>PLG_USER_SSO</name>
+	<author>John Fredy Velasco Bareño</author>
+	<creationDate>Sep 04, 2017</creationDate>
+	<copyright>@copyright Copyright © 2016 Universidad de los andes, All Rights Reserved.</copyright>
+    <authorEmail>jf.velasco20@uniandes.edu.co</authorEmail>
+    <authorUrl>www.uniandes.edu.co</authorUrl>	
+	<version>1.0.0</version>
+	<description>PLG_USER_SSO_DESC</description>
+	<files>
+		<filename plugin="sso">sso.php</filename>
+	</files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_user_sso.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_user_sso.sys.ini</language>
+        <language tag="es-CO">language/es-CO/es-CO.plg_user_sso.ini</language>
+        <language tag="es-CO">language/es-CO/es-CO.plg_user_sso.sys.ini</language>				
+    </languages>	
+</extension>

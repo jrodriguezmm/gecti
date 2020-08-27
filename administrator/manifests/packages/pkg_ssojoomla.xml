@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="package" method="upgrade">
+	<name>Paquete Joomla SSO</name>
+	<packagename>ssojoomla</packagename>
+	<author>John Fredy Velasco Bareño</author>
+	<creationDate>Sep 04, 2017</creationDate>
+	<copyright>@copyright Copyright © 2016 Universidad de los andes, All Rights Reserved.</copyright>
+    <authorEmail>jf.velasco20@uniandes.edu.co</authorEmail>
+    <authorUrl>www.uniandes.edu.co</authorUrl>	
+	<version>1.0.0</version>		
+	<description>Paquete para la autenticacion SSO</description>
+	<files>
+		<file type="package" id="miniorangesamlpluginpack" >pkg_miniorangesamlplugin.zip</file>
+		<file type="plugin" id="samlredirectlogin" group="system">plg_system_samlredirectlogin.zip</file>
+		<file type="plugin" id="sso" group="user">plg_user_sso.zip</file>
+	</files>
+</extension>
